@@ -1,6 +1,6 @@
 package javacore;
 
-class Sample{
+class Demo{
    int a;
    float b;
    char c;
@@ -39,12 +39,12 @@ public void setS(String s) {
 }
 public class Encapsulation{
 	public static void main(String[] args) {
-		Sample s = new Sample();
-		s.setA(5000);
-		System.out.println(s.getA());   
+		Demo d = new  Demo();
+		d.setA(5000);
+		System.out.println(d.getA());   
 		
-		s.setB(3.345f);
-		System.out.println(s.getB());
+		d.setB(3.345f);
+		System.out.println(d.getB());
 		
 		
 	}
