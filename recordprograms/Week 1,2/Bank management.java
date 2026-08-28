@@ -16,7 +16,7 @@ class account{
     void withdraw(int amount){
         if (balance>=amount) {
             balance=balance-amount;
-            System.out.println("balance after deposit is :"+balance);
+            System.out.println("balance after withdraw is :"+balance);
 
         }
         else
